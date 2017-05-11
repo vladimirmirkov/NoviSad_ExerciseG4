@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
-//Finish time:
-//Student ID:
+// Before you commit and push write your student ID and finish time here.
+// Finish time:
+// Student ID:
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
