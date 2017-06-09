@@ -98,3 +98,20 @@ RefactoringAction 1497034020642 TestBowling.java RENAME test_AddMoreThen10Fr=>vo
 RefactoringAction 1497034022655 TestBowling.java RENAME test_AddMoreThen10Frames=>void test_AddMoreThen10Frames() METHOD
 EditAction 1497034164827 BowlingGame.java 1095 8 8 0
 EditAction 1497034172824 TestBowling.java 4050 8 98 8
+UnitTestCaseAction 1497034180911 TestBowling.java FAIL
+UnitTestSessionAction 1497034180913 TestBowling.java FAIL
+RefactoringAction 1497034267896 Frame.java ADD int bonus FIELD
+RefactoringAction 1497034292083 TestBowling.java ADD void test FIELD
+RefactoringAction 1497034294095 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497034295609 TestBowling.java RENAME test_=>void test_Add FIELD
+RefactoringAction 1497034297123 TestBowling.java RENAME test_Add=>void test_AddBonus FIELD
+RefactoringAction 1497034300136 TestBowling.java RENAME test_AddBonus=>void test_AddBonus() METHOD
+RefactoringAction 1497034318176 TestBowling.java RENAME test_SetBonus()=>void test_SetBonus FIELD
+RefactoringAction 1497034431062 Frame.java ADD void add FIELD
+RefactoringAction 1497034432572 Frame.java RENAME add=>void addBonus FIELD
+RefactoringAction 1497034434582 Frame.java RENAME addBonus=>void addBonus() METHOD
+RefactoringAction 1497034466036 TestBowling.java RENAME test_AddBonus()=>void test_AddBonusSpare() METHOD
+RefactoringAction 1497034473552 TestBowling.java ADD void test_AddBonusSpare()/2 METHOD
+RefactoringAction 1497034478566 TestBowling.java RENAME test_AddBonusSpare()/2=>void test_AddBonus() METHOD
+RefactoringAction 1497034480582 TestBowling.java RENAME test_AddBonus()=>void test_AddBonusStrike() METHOD
+EditAction 1497034490432 BowlingGame.java 1161 8 8 0
