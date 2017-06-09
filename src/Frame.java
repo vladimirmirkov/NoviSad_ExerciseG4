@@ -16,7 +16,6 @@ public class Frame {
 		return secondThrow;
 	}
 	
-	public void addBonus()
 
 	//returns the score of a single frame
 	public int score(){
