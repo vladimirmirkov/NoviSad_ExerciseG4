@@ -50,7 +50,6 @@ public class TestBowling {
 	{
 		int firstThrow = 2;
 		int secondThrow = 8;
-		Frame f = new Frame(firstThrow, secondThrow);
 		Frame f1 = new Frame(firstThrow, secondThrow);
 		Frame f2 = new Frame(firstThrow, secondThrow);
 		Frame f3 = new Frame(firstThrow, secondThrow);
@@ -74,6 +73,20 @@ public class TestBowling {
 		bg.addFrame(f10);
 		
 		assertEquals(10, bg.getFrames().size());
+	}
+	
+	@Test
+	public void test_GameScore()
+	{
+		int firstThrow = 2;
+		int secondThrow = 6;
+		Frame f1 = new Frame(firstThrow, secondThrow);
+		Frame f2 = new Frame(firstThrow, secondThrow);
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(f1);
+		bg.addFrame(f2);
+		
+		assertEquals(16, bg.score());
 	}
 	/*@Test
 	public void test() {
