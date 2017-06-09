@@ -33,11 +33,6 @@ public class BowlingGame {
 		
 	}
 	
-	public static void addBonus(int firstThrow, int secondThrow)
-	{
-		
-	}
-	
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score
@@ -47,5 +42,13 @@ public class BowlingGame {
 			score += f.score();
 		}
 		return score;
+	}
+
+	public Frame getBonus() {
+		return bonus;
+	}
+
+	public void setBonus(Frame bonus) {
+		this.bonus = bonus;
 	}
 }

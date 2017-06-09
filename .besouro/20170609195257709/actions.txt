@@ -82,3 +82,18 @@ RefactoringAction 1497033132077 BowlingGame.java RENAME addBonus=>static void ad
 RefactoringAction 1497033151630 BowlingGame.java RENAME addBonus()=>static void addBonus(int, int) METHOD
 EditAction 1497033374181 BowlingGame.java 1055 7 6 0
 EditAction 1497033387115 TestBowling.java 2526 7 59 8
+UnitTestCaseAction 1497033399552 TestBowling.java FAIL
+UnitTestSessionAction 1497033399554 TestBowling.java FAIL
+RefactoringAction 1497033720794 BowlingGame.java ADD Frame getBonus() METHOD
+RefactoringAction 1497033720795 BowlingGame.java ADD void setBonus(Frame) METHOD
+RefactoringAction 1497033879981 BowlingGame.java REMOVE addBonus(int, int) METHOD
+RefactoringAction 1497034005534 TestBowling.java ADD void test FIELD
+RefactoringAction 1497034010047 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497034011554 TestBowling.java RENAME test_=>void test_Add FIELD
+RefactoringAction 1497034013069 TestBowling.java RENAME test_Add=>void test_AddMore FIELD
+RefactoringAction 1497034015097 TestBowling.java RENAME test_AddMore=>void test_AddMoreThen FIELD
+RefactoringAction 1497034016613 TestBowling.java RENAME test_AddMoreThen=>void test_AddMoreThen10 FIELD
+RefactoringAction 1497034018125 TestBowling.java RENAME test_AddMoreThen10=>void test_AddMoreThen10Fr FIELD
+RefactoringAction 1497034020642 TestBowling.java RENAME test_AddMoreThen10Fr=>void test_AddMoreThen10Frames FIELD
+RefactoringAction 1497034022655 TestBowling.java RENAME test_AddMoreThen10Frames=>void test_AddMoreThen10Frames() METHOD
+EditAction 1497034164827 BowlingGame.java 1095 8 8 0
