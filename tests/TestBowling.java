@@ -16,8 +16,17 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void test_ScoreOfSingleFrame()
+	{
+		int firstThrow = 2;
+		int secondThrow = 5;
+		Frame f = new Frame(firstThrow, secondThrow);
+		
+		assertEquals(7, f.score());
+	}
+	/*@Test
 	public void test() {
 		fail("Not yet implemented");
-	}
+	} */
 
 }
