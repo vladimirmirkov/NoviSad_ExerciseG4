@@ -5,6 +5,17 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test
+	public void test_Frame()
+	{
+		int firstThrow = 2;
+		int secondThrow = 5;
+		Frame f = new Frame(firstThrow, secondThrow);
+		
+		assertEquals(firstThrow, f.getFirstThrow());
+		assertEquals(secondThrow, f.getSecondThrow());
+	}
+	
+	@Test
 	public void test() {
 		fail("Not yet implemented");
 	}
