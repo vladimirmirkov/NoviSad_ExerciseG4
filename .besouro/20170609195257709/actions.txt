@@ -81,3 +81,4 @@ RefactoringAction 1497033128065 BowlingGame.java RENAME addBo=>void addBonus FIE
 RefactoringAction 1497033132077 BowlingGame.java RENAME addBonus=>static void addBonus() METHOD
 RefactoringAction 1497033151630 BowlingGame.java RENAME addBonus()=>static void addBonus(int, int) METHOD
 EditAction 1497033374181 BowlingGame.java 1055 7 6 0
+EditAction 1497033387115 TestBowling.java 2526 7 59 8

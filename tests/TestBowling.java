@@ -88,6 +88,22 @@ public class TestBowling {
 		
 		assertEquals(16, bg.score());
 	}
+	
+	@Test
+	public void test_SetBonus()
+	{
+		int firstThrow = 2;
+		int secondThrow = 8;
+		Frame f1 = new Frame(firstThrow, secondThrow);
+		int firstThrow2 = 2;
+		int secondThrow2 = 6;
+		Frame f2 = new Frame(firstThrow2, secondThrow2);
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(f1);
+		bg.addFrame(f2);
+		
+		assertEquals(20, bg.score());
+	}
 	/*@Test
 	public void test() {
 		fail("Not yet implemented");
