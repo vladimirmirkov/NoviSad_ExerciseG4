@@ -136,3 +136,6 @@ RefactoringAction 1497035425416 TestBowling.java ADD void test_SetBonusSpare()/2
 RefactoringAction 1497035429428 TestBowling.java RENAME test_SetBonusSpare()/2=>void test_SetBonus() METHOD
 RefactoringAction 1497035431439 TestBowling.java RENAME test_SetBonus()=>void test_SetBonusStrike() METHOD
 EditAction 1497035579099 BowlingGame.java 1246 9 8 0
+CompilationAction 1497035593371 BowlingGame.java
+CompilationAction 1497035593373 BowlingGame.java
+EditAction 1497035599185 TestBowling.java 4524 11 104 11
