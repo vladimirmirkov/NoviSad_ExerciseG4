@@ -38,3 +38,13 @@ EditAction 1497031571359 TestBowling.java 956 4 17 5
 UnitTestCaseAction 1497031582111 TestBowling.java FAIL
 UnitTestSessionAction 1497031582113 TestBowling.java FAIL
 EditAction 1497031637885 Frame.java 858 6 7 0
+UnitTestCaseAction 1497031646603 TestBowling.java OK
+UnitTestSessionAction 1497031646605 TestBowling.java OK
+RefactoringAction 1497031915794 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497031918307 TestBowling.java RENAME test_=>void test_AddFrame FIELD
+RefactoringAction 1497031920326 TestBowling.java RENAME test_AddFrame=>void test_AddFrameToGame FIELD
+RefactoringAction 1497031924839 TestBowling.java RENAME test_AddFrameToGame=>void test_AddFrameToTheGame FIELD
+RefactoringAction 1497031937858 TestBowling.java RENAME test_AddFrameToTheGame=>void test_AddFrameToTheGame() METHOD
+RefactoringAction 1497032249434 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1497032249437 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
+EditAction 1497032290727 BowlingGame.java 848 6 3 0
