@@ -16,3 +16,11 @@ RefactoringAction 1497031178132 TestBowling.java RENAME test_ScoreOf=>void test_
 RefactoringAction 1497031179645 TestBowling.java RENAME test_ScoreOfSingle=>void test_ScoreOfSingleFrame FIELD
 RefactoringAction 1497031181157 TestBowling.java RENAME test_ScoreOfSingleFrame=>void test_ScoreOfSingleFrame() METHOD
 EditAction 1497031255188 TestBowling.java 601 2 9 3
+UnitTestCaseAction 1497031265550 TestBowling.java FAIL
+UnitTestSessionAction 1497031265552 TestBowling.java FAIL
+RefactoringAction 1497031351944 TestBowling.java ADD void test FIELD
+RefactoringAction 1497031353454 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497031355964 TestBowling.java RENAME test_=>void test_Is FIELD
+RefactoringAction 1497031357974 TestBowling.java RENAME test_Is=>void test_IsStrike FIELD
+RefactoringAction 1497031359484 TestBowling.java RENAME test_IsStrike=>void test_IsStrike() METHOD
+EditAction 1497031404933 Frame.java 704 6 7 0
