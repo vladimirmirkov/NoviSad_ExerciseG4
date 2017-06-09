@@ -46,7 +46,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_AddFrameToTheGame()
+	public void test_AddFrameToTheGame() throws BowlingException
 	{
 		int firstThrow = 2;
 		int secondThrow = 8;
@@ -76,7 +76,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_GameScore()
+	public void test_GameScore() throws BowlingException
 	{
 		int firstThrow = 2;
 		int secondThrow = 6;
@@ -90,7 +90,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_SetBonus()
+	public void test_SetBonus() throws BowlingException
 	{
 		int firstThrow = 2;
 		int secondThrow = 6;
@@ -147,6 +147,31 @@ public class TestBowling {
 		bg.addFrame(f9);
 		bg.addFrame(f10);
 		bg.addFrame(f11);
+	}
+	
+	@Test
+	public void test_AddBonusSpare()
+	{
+		int firstThrow = 2;
+		int secondThrow = 8;
+		Frame f1 = new Frame(firstThrow, secondThrow);
+		int firstThrow2 = 2;
+		int secondThrow2 = 6;
+		Frame f2 = new Frame(firstThrow2, secondThrow2);
+		
+		assertEquals(2, f1.bonus);
+	}
+	
+	public void test_AddBonusStrike()
+	{
+		int firstThrow = 2;
+		int secondThrow = 8;
+		Frame f1 = new Frame(firstThrow, secondThrow);
+		int firstThrow2 = 2;
+		int secondThrow2 = 6;
+		Frame f2 = new Frame(firstThrow2, secondThrow2);
+		
+		assertEquals(8, f1.bonus);
 	}
 	/*@Test
 	public void test() {

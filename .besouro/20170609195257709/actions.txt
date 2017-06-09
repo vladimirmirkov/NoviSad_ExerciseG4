@@ -117,3 +117,6 @@ RefactoringAction 1497034480582 TestBowling.java RENAME test_AddBonus()=>void te
 EditAction 1497034490432 BowlingGame.java 1161 8 8 0
 CompilationAction 1497034502912 TestBowling.java
 EditAction 1497034507909 Frame.java 906 7 7 0
+CompilationAction 1497034515994 Frame.java
+CompilationAction 1497034515996 TestBowling.java
+EditAction 1497034516178 TestBowling.java 4687 10 112 10
