@@ -93,16 +93,60 @@ public class TestBowling {
 	public void test_SetBonus()
 	{
 		int firstThrow = 2;
-		int secondThrow = 8;
+		int secondThrow = 6;
 		Frame f1 = new Frame(firstThrow, secondThrow);
-		int firstThrow2 = 2;
-		int secondThrow2 = 6;
-		Frame f2 = new Frame(firstThrow2, secondThrow2);
+		Frame f2 = new Frame(firstThrow, secondThrow);
+		Frame f3 = new Frame(firstThrow, secondThrow);
+		Frame f4 = new Frame(firstThrow, secondThrow);
+		Frame f5 = new Frame(firstThrow, secondThrow);
+		Frame f6 = new Frame(firstThrow, secondThrow);
+		Frame f7 = new Frame(firstThrow, secondThrow);
+		Frame f8 = new Frame(firstThrow, secondThrow);
+		Frame f9 = new Frame(firstThrow, secondThrow);
+		Frame f10 = new Frame(firstThrow, secondThrow);
 		BowlingGame bg = new BowlingGame();
 		bg.addFrame(f1);
 		bg.addFrame(f2);
+		bg.addFrame(f3);
+		bg.addFrame(f4);
+		bg.addFrame(f5);
+		bg.addFrame(f6);
+		bg.addFrame(f7);
+		bg.addFrame(f8);
+		bg.addFrame(f9);
+		bg.addFrame(f10);
 		
-		assertEquals(20, bg.score());
+		assertEquals(80 + bg.getBonus().getFirstThrow(), bg.score());
+	}
+	
+	@Test (expected =  BowlingException.class)
+	public void test_AddMoreThen10Frames() throws BowlingException
+	{
+		int firstThrow = 2;
+		int secondThrow = 6;
+		Frame f1 = new Frame(firstThrow, secondThrow);
+		Frame f2 = new Frame(firstThrow, secondThrow);
+		Frame f3 = new Frame(firstThrow, secondThrow);
+		Frame f4 = new Frame(firstThrow, secondThrow);
+		Frame f5 = new Frame(firstThrow, secondThrow);
+		Frame f6 = new Frame(firstThrow, secondThrow);
+		Frame f7 = new Frame(firstThrow, secondThrow);
+		Frame f8 = new Frame(firstThrow, secondThrow);
+		Frame f9 = new Frame(firstThrow, secondThrow);
+		Frame f10 = new Frame(firstThrow, secondThrow);
+		Frame f11 = new Frame(firstThrow, secondThrow);
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(f1);
+		bg.addFrame(f2);
+		bg.addFrame(f3);
+		bg.addFrame(f4);
+		bg.addFrame(f5);
+		bg.addFrame(f6);
+		bg.addFrame(f7);
+		bg.addFrame(f8);
+		bg.addFrame(f9);
+		bg.addFrame(f10);
+		bg.addFrame(f11);
 	}
 	/*@Test
 	public void test() {

@@ -97,3 +97,4 @@ RefactoringAction 1497034018125 TestBowling.java RENAME test_AddMoreThen10=>void
 RefactoringAction 1497034020642 TestBowling.java RENAME test_AddMoreThen10Fr=>void test_AddMoreThen10Frames FIELD
 RefactoringAction 1497034022655 TestBowling.java RENAME test_AddMoreThen10Frames=>void test_AddMoreThen10Frames() METHOD
 EditAction 1497034164827 BowlingGame.java 1095 8 8 0
+EditAction 1497034172824 TestBowling.java 4050 8 98 8
