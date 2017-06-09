@@ -34,6 +34,16 @@ public class TestBowling {
 		
 		assertTrue(f.isStrike());
 	}
+	
+	@Test
+	public void test_IsSpare()
+	{
+		int firstThrow = 2;
+		int secondThrow = 8;
+		Frame f = new Frame(firstThrow, secondThrow);
+		
+		assertTrue(f.isSpare());
+	}
 	/*@Test
 	public void test() {
 		fail("Not yet implemented");
