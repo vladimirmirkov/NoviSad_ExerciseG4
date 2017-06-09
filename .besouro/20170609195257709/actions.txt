@@ -67,3 +67,17 @@ EditAction 1497032608371 BowlingGame.java 897 6 4 0
 UnitTestCaseAction 1497032617853 TestBowling.java FAIL
 UnitTestSessionAction 1497032617855 TestBowling.java FAIL
 EditAction 1497033042580 BowlingGame.java 977 6 6 0
+UnitTestCaseAction 1497033051949 TestBowling.java OK
+UnitTestSessionAction 1497033051952 TestBowling.java OK
+RefactoringAction 1497033065759 TestBowling.java ADD void test FIELD
+RefactoringAction 1497033066767 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497033076291 TestBowling.java RENAME test_=>void test_SetBonus FIELD
+RefactoringAction 1497033078303 TestBowling.java RENAME test_SetBonus=>void test_SetBonus() METHOD
+RefactoringAction 1497033122021 BowlingGame.java ADD void Add FIELD
+RefactoringAction 1497033123532 BowlingGame.java RENAME Add=>void add FIELD
+RefactoringAction 1497033125045 BowlingGame.java RENAME add=>void addBony FIELD
+RefactoringAction 1497033126055 BowlingGame.java RENAME addBony=>void addBo FIELD
+RefactoringAction 1497033128065 BowlingGame.java RENAME addBo=>void addBonus FIELD
+RefactoringAction 1497033132077 BowlingGame.java RENAME addBonus=>static void addBonus() METHOD
+RefactoringAction 1497033151630 BowlingGame.java RENAME addBonus()=>static void addBonus(int, int) METHOD
+EditAction 1497033374181 BowlingGame.java 1055 7 6 0

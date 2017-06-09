@@ -33,6 +33,11 @@ public class BowlingGame {
 		
 	}
 	
+	public static void addBonus(int firstThrow, int secondThrow)
+	{
+		
+	}
+	
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score
