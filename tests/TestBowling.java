@@ -24,6 +24,16 @@ public class TestBowling {
 		
 		assertEquals(7, f.score());
 	}
+	
+	@Test
+	public void test_IsStrike()
+	{
+		int firstThrow = 10;
+		int secondThrow = 0;
+		Frame f = new Frame(firstThrow, secondThrow);
+		
+		assertTrue(f.isStrike());
+	}
 	/*@Test
 	public void test() {
 		fail("Not yet implemented");

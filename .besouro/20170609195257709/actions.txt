@@ -24,3 +24,4 @@ RefactoringAction 1497031355964 TestBowling.java RENAME test_=>void test_Is FIEL
 RefactoringAction 1497031357974 TestBowling.java RENAME test_Is=>void test_IsStrike FIELD
 RefactoringAction 1497031359484 TestBowling.java RENAME test_IsStrike=>void test_IsStrike() METHOD
 EditAction 1497031404933 Frame.java 704 6 7 0
+EditAction 1497031414895 TestBowling.java 780 3 13 4
