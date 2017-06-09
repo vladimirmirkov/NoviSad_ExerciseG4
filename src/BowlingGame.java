@@ -15,6 +15,7 @@ public class BowlingGame {
 	// adds a frame to the game
 	public void addFrame(Frame frame){
 		//to be implemented
+		frames.add(frame);
 	}
 	
 	public List<Frame> getFrames() {
