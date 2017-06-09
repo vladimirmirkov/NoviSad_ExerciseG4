@@ -1,6 +1,7 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	public int bonus;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -14,6 +15,8 @@ public class Frame {
 	public int getSecondThrow() {
 		return secondThrow;
 	}
+	
+	public void addBonus()
 
 	//returns the score of a single frame
 	public int score(){
