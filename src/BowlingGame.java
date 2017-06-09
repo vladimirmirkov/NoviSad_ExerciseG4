@@ -34,7 +34,7 @@ public class BowlingGame {
 		//to be implemented
 		if(frames.size() == 10)
 		{
-			frames
+			
 		}
 	}
 	
